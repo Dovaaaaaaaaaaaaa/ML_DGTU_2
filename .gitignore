@@ -1,0 +1,33 @@
+# виртуальные окружения
+.venv/
+venv/
+env/
+
+# кэш Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# логи и секреты
+*.log
+.env
+
+# временные файлы
+0
+
+# генерируемые результаты (рисунки, csv, xlsx)
+output/
+
+# дубликаты датасетов в корне (код читает данные из data/)
+/Lab2_Dataset_Clustering.xlsx
+/Lab2_Dataset_PCA.xlsx
