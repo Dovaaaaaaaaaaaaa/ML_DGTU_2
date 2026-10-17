@@ -25,9 +25,6 @@ desktop.ini
 # временные файлы
 0
 
-# генерируемые результаты (рисунки, csv, xlsx)
-output/
-
 # дубликаты датасетов в корне (код читает данные из data/)
 /Lab2_Dataset_Clustering.xlsx
 /Lab2_Dataset_PCA.xlsx

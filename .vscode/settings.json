@@ -2,5 +2,6 @@
     "python.analysis.extraPaths": [
         "${workspaceFolder}"
     ],
-    "python.terminal.activateEnvironment": false
+    "python.terminal.activateEnvironment": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }

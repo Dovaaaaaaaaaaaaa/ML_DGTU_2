@@ -152,7 +152,7 @@ def biplot(scores: np.ndarray, loadings: np.ndarray, ax=None,
 
 def _annotate_levels(ax, levels: list[str], label: str) -> None:
     """Подкрашивает подписи оси X уровнями значимости."""
-    ax.set_xticks(range(len(levels)))
+    ax.set_xticks(range(1, len(levels) + 1))
     ax.set_xticklabels([f"{i + 1}\n{lev}" for i, lev in enumerate(levels)],
                        fontsize=7)
     ax.set_xlabel(label)
